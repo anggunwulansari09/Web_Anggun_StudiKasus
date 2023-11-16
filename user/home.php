@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>Doze Cafe</title>
+    <title>Toko aksesoris</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -106,7 +106,7 @@
                         <div class="carousel-item active">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <!-- <div class="banner_img"><img src="image/mahkota1.png"></div> -->
+                                    <div class="banner_img"><img src=""></div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="banner_taital_main">
@@ -115,26 +115,19 @@
                                         <p class="banner_text">Toko kami terinspirasi dari mahkota karna mahkota sendiri merupakan lambang kekuasaan, legitimasi, keabadian, kejayaan, kemakmuran dan kehidupan </p>
                                         <div class="btn_main">
                                             <div class="about_bt"><a href="about.php" role="button">About Us</a></div>
-                                            <div class="callnow_bt active"><a href="#">Call Now</a></div>
+                                            <div class="callnow_bt active"><a href="contact.php">Call Now</a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
-                        <i class="fa fa-arrow-left"></i>
-                    </a>
-                    <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
-                        <i class="fa fa-arrow-right"></i>
-                    </a> -->
                 </div>
             </div>
         </div>
         <!-- banner section end -->
-
-        <!-- coffee section start -->
-        <div class="coffee_section layout_padding" style="margin-top: 100px;">
+        <!-- product section start -->
+        <div class="coffee_section layout_padding">
             <div class="container">
                 <div class="row">
                     <h1 class="coffee_taital">OUR Product OFFER</h1>
@@ -148,58 +141,28 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">TYPES OF COFFEE</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
+                                        <div class="coffee_img"><img src="image/pjepit.jpg"></div>
+                                        <h3 class="types_text">Jepit Rambut</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">BEAN VARIETIES</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
+                                        <div class="coffee_img"><img src="image/pbando.jpg"></div>
+                                        <h3 class="types_text">Bando</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">COFFEE & PASTRY</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
+                                        <div class="coffee_img"><img src="image/pjepit.jpg"></div>
+                                        <h3 class="types_text">Jepit rambut</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">COFFEE TO GO</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">TYPES OF COFFEE</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">BEAN VARIETIES</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">COFFEE & PASTRY</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">COFFEE TO GO</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
+                                        <div class="coffee_img"><img src="image/ptas.jpg"></div>
+                                        <h3 class="types_text">Tas</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -208,28 +171,58 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">TYPES OF COFFEE</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
+                                        <div class="coffee_img"><img src="image/pikat.jpg"></div>
+                                        <h3 class="types_text">Ikat Rambut</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">BEAN VARIETIES</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
+                                        <div class="coffee_img"><img src="image/topi1.jpg"></div>
+                                        <h3 class="types_text">Topi</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">COFFEE & PASTRY</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
+                                        <div class="coffee_img"><img src="image/ptas.jpg"></div>
+                                        <h3 class="types_text">Tas</h3>
+                                        <p class="looking_text">llook at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="coffee_img"><img src="image/ikat1.jpg"></div>
-                                        <h3 class="types_text">COFFEE TO GO</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
+                                        <div class="coffee_img"><img src="image/pbando.jpg"></div>
+                                        <h3 class="types_text">Bando</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="coffee_img"><img src="image/pjepit.jpg"></div>
+                                        <h3 class="types_text">Jepit Rambut</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="coffee_img"><img src="image/ptas.jpg"></div>
+                                        <h3 class="types_text">Tas</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="coffee_img"><img src="image/pbando.jpg"></div>
+                                        <h3 class="types_text">Bando</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="coffee_img"><img src="image/topi1.jpg"></div>
+                                        <h3 class="types_text">Topi</h3>
+                                        <p class="looking_text">look at this, it's so beautiful</p>
+                                        <div class="read_bt"><a href="produk.php">Read More</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -244,8 +237,8 @@
                 </div>
             </div>
         </div>
-        <!-- coffee section end -->
-        <!-- KATALOG -->
+        <!-- prosuct section end -->
+        <!-- KATALOG dari database-->
         <?php
         include "connection.php";
         $brg = mysqli_query($connection, "SELECT * FROM barang");
@@ -290,102 +283,66 @@
                 <!-- <div><img src="image/banner1.jpg"class="sesi"></div> -->
                 <!-- <div class="about_taital_box"> -->
                 <!-- card -->
-                <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                <div class="card mb-3 mx-auto" style="max-width: 540px; background-color: #c27465;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="image/banner1.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="image/anggun1.jpeg" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body text-center"> <!-- Tambahkan kelas text-center di sini -->
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-title">Profile Owner</h5>
+                                <p class="card-text">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Nama : Anggun Wulan Sari</li>
+                                    <li class="list-group-item">Kelas : Full Stack Web Development</li>
+                                    <li class="list-group-item">Univ : Politeknik Negeri Sriwijaya</li>
+                                </ul>
+                                </p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> <!-- Ganti text-body-secondary menjadi text-muted -->
                             </div>
                         </div>
                     </div>
                 </div>
-                <h1 class="about_taital_1">Coffee distribution '</h1>
-                <p class=" about_text">has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editorhas a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editor</p>
-                <div class="readmore_btn"><a href="#">Read More</a></div>
-                <!-- </div> -->
+                <h1 class="about_taital_1">Accessoris Shop </h1>
+                <p class=" about_text">Toko kami terinspirasi dari mahkota karna mahkota sendiri merupakan lambang kekuasaan, legitimasi, keabadian, kejayaan, kemakmuran dan kehidupan.Kami hadir untuk penawaran yang lebih besar. Khusus hari ini, dapatkan promo cashback Rp50 ribu untuk setiap pembelian produk seharga minimal Rp300 ribu.</p>
             </div>
         </div>
+    </div>
     </div>
     <!-- about section end -->
     <!-- blog section start -->
-    <div class="blog_section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="about_taital">Our Blog</h1>
-                    <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="about_taital">Our Blog</h1>
+                <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
             </div>
-            <div class="blog_section_2">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="blog_box">
-                            <div class="blog_img"><img src="images/blog-img1.png"></div>
-                            <h4 class="date_text">05 April</h4>
-                            <h4 class="prep_text">PREP TECHNIQUES Coffee</h4>
-                            <p class="lorem_text">distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more</p>
-                        </div>
-                        <div class="read_bt"><a href="https://www.instagram.com/anggun_wlsr/">Read More</a></div>
+        </div>
+        <div class="blog_section_2">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="blog_box">
+                        <div class="blog_img"><img src="image/blog1.jpg"></div>
+                        <h4 class="date_text">14 November 2023</h4>
+                        <h4 class="prep_text">Sejarah Toko</h4>
+                        <p class="lorem_text">Toko ini berdiri pada tanggal 11 November 2023, dengan didirikan oleh mahasiswi dengan motivasi agar bisa membuka usaha sendiri.
+                            toko ini menyediakan banyak aksesoris keperluan agar kita bisa terlihat anggun dan indah .</p>
                     </div>
-                    <div class="col-md-6">
-                        <div class="blog_box">
-                            <div class="blog_img"><img src="images/blog-img2.png"></div>
-                            <h4 class="date_text">05 April</h4>
-                            <h4 class="prep_text">PREP TECHNIQUES Coffee</h4>
-                            <p class="lorem_text">distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more</p>
-                        </div>
-                        <div class="read_bt"><a href="https://www.instagram.com/anggun_wlsr/">Read More</a></div>
+                    <div class="read_bt"><a href="about.php">Read More</a></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog_box">
+                        <div class="blog_img"><img src="image/blog2.jpg"></div>
+                        <h4 class="date_text">14 November 2023</h4>
+                        <h4 class="prep_text">Informasi Toko</h4>
+                        <p class="lorem_text">Jika Kamu ingin berkonsultasi terlebih dahulu teruntu aksesoris mana yang cocok maka kamu bisa berkonsultasi dengan saya melalui nomor yang tertera pada menu contact ya...ayo di cek kembali produknya sebelum kehabisan</p>
                     </div>
+                    <div class="read_bt"><a href="about.php">Read More</a></div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- client section start -->
-    <div class="client_section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="about_taital">What syas customers</h1>
-                    <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
-                </div>
-            </div>
-            <div class="client_section_2">
-                <div class="client_taital_main">
-                    <div class="client_left">
-                        <div class="client_img"><img src="images/client-img1.png"></div>
-                    </div>
-                    <div class="client_right">
-                        <h3 class="moark_text">Joy Moark</h3>
-                        <p class="client_text">now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text, </p>
-                    </div>
-                </div>
-                <div class="client_taital_main">
-                    <div class="client_left">
-                        <div class="client_img"><img src="images/client-img2.png"></div>
-                    </div>
-                    <div class="client_right">
-                        <h3 class="moark_text">Mihacal</h3>
-                        <p class="client_text">now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text, </p>
-                    </div>
-                </div>
-                <div class="client_taital_main">
-                    <div class="client_left">
-                        <div class="client_img"><img src="images/client-img3.png"></div>
-                    </div>
-                    <div class="client_right">
-                        <h3 class="moark_text">Uliya den</h3>
-                        <p class="client_text">now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text, </p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-    <!-- client section end -->
     <!-- blog section end -->
     <!-- contact section start -->
     <div class="contact_section layout_padding">
@@ -409,11 +366,6 @@
                             <div class="send_bt"><a href="#">SEND</a></div>
                         </div>
                     </div>
-                    <div class="map_main">
-                        <div class="map-responsive">
-                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="250" height="500" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -424,17 +376,17 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="address_text">Address</h1>
-                    <p class="footer_text">here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use </p>
+                    <p class="footer_text">Kamu bisa menghubungi kontak di bawah ini jika ingin memesan dan info lebih lanjut terkait produk. </p>
                     <div class="location_text">
                         <ul>
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">+01 1234567890</span>
+                                    <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">+6285234543212</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">demo@gmail.com</span>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">Accessoris_Shop.com</span>
                                 </a>
                             </li>
                         </ul>
@@ -453,15 +405,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
-                    <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a></p>
+                    <p class="copyright_text">2023 All Rights Reserved. Design by <a href="#">Anggun Wulan Sari</a></p>
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <div class="footer_social_icon">
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/anggun_wlsr/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>

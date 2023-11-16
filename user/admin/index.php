@@ -13,7 +13,7 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas menyambungkan database</title>
+    <title>Admin roko aksesoris</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -50,6 +50,10 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
         .judul {
             margin-top: 50px;
             color: #0c2485;
+        }
+
+        .foto {
+            width: 50px;
         }
     </style>
     <!-- jquerry -->
@@ -93,50 +97,50 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
     </script>
 </head>
 
-<<body >
+<body>
     <div class="header_section">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                <a class="navbar-brand" href="home.php" style=" font-weight: bold; color: white;"><img src="image/logo.png" style="width: 50px;" class="gambar">Accessoris Shop</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Halaman Admin</a>
-                        </li>
-                        <form class="form-inline my-2 my-lg-0">
-                            <div class="login_bt">
-                                <ul>
-                                    <li><a href="admin/index.php"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>Admin</a></li>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </form>
-                </div>
-            </nav>
-        </div>
-        <!-- Tabel pelanggan -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="home.php" style=" font-weight: bold; color: white;"><img src="image/logo.png" style="width: 50px;" class="gambar">Accessoris Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Halaman Admin</a>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="login_bt">
+                            <ul>
+                                <li><a href="admin/index.php"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>Admin</a></li>
+                                <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </form>
+            </div>
+        </nav>
+        <!-- Semua Tabel -->
         <center>
-            <h2 class="judul">DATA PELANGGAN</h2>
-            <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
-
+            <div class="row">
+                <h1 class="coffee_taital" style="margin-top: 50px;">DATA PELANGGAN</h1>
+                <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            </div>
         </center>
+
         <p style="padding-left: 50px;"><a class="btn btn-primary btn-sm" href="tambah.php" role="button">Tambah Data </a> </p>
         <div style="width:1200px; margin:0 auto;">
             <table id="table-pelanggan" class="table table-striped-columns">
                 <thead>
                     <tr>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i>ID </i></b></td>
-                        <td width="200px" style="background-color: #5085c7; text-align: center;"> <b><i>Nama Customer</i></b></td>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i>Jenis Kelamin</i></b></td>
-                        <td width="100px" style="background-color: #5085c7; text-align: center;"> <b><i>Telpon </i></b></td>
-                        <td width="200px" style="background-color: #5085c7; text-align: center;"> <b><i>Alamat <br></i></b></td>
-                        <td width="200px" style="background-color: #5085c7; text-align: center;"> <b><i>kota <br></i></b></td>
-                        <td width="100px" style="background-color: #5085c7; text-align: center;"> <b><i>Kode Pos<br></i></b></td>
-                        <td width="100px" style="background-color: #5085c7; text-align: center;"> <b><i>Email <br></i></b></td>
-                        <td width="200px" style="background-color: #5085c7; text-align: center;"> <b><i>Aksi<br></i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i>ID </i></b></td>
+                        <td width="200px" style="background-color: #c27465; text-align: center;"> <b><i>Nama Customer</i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i>Jenis Kelamin</i></b></td>
+                        <td width="100px" style="background-color: #c27465; text-align: center;"> <b><i>Telpon </i></b></td>
+                        <td width="200px" style="background-color: #c27465; text-align: center;"> <b><i>Alamat <br></i></b></td>
+                        <td width="200px" style="background-color: #c27465; text-align: center;"> <b><i>kota <br></i></b></td>
+                        <td width="100px" style="background-color: #c27465; text-align: center;"> <b><i>Kode Pos<br></i></b></td>
+                        <td width="100px" style="background-color: #c27465; text-align: center;"> <b><i>Email <br></i></b></td>
+                        <td width="200px" style="background-color: #c27465; text-align: center;"> <b><i>Aksi<br></i></b></td>
                     </tr>
                 </thead>
                 <tbody>
@@ -146,7 +150,7 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
                         while ($data = mysqli_fetch_array($query)) {
                         ?>
                             <tr>
-                                <td style="background-color: #9ea6a7; text-align: center;"><?php echo $data['id']; ?></td>
+                                <td style="background-color: #5c595a; text-align: center;"><?php echo $data['id']; ?></td>
                                 <td style="background-color: #9ea6a7;"><?php echo $data['nama']; ?></td>
                                 <td style="background-color: #9ea6a7;"><?php echo $data['jenis_kelamin']; ?></td>
                                 <td style="background-color: #9ea6a7; text-align: center;"><?php echo $data['no_telp']; ?></td>
@@ -167,19 +171,31 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
         </div>
 
         <!-- pesanan -->
+        <div class="w3-card-4">
+            <header class="w3-container w3-light-grey" style="margin-top: 60px; margin-left: 19px;">
+                <h3>Hallo...</h3>
+            </header>
+            <div class="w3-container ">
+                <p>Kamu sudah bisa melakukan Update data</p>
+                <p>Jika Pendataan tersusun maka semuanya akan terhitung dan tidak akan keliru</p>
+                <hr>
+            </div>
+        </div>
         <center>
-            <h2 class="judul">DATA PESANAN</h2>
-            <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            <div class="row">
+                <h1 class="coffee_taital" style="margin-top: 50px;">DATA PESANAN</h1>
+                <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            </div>
         </center>
         <p style="padding-left: 250px;"><a class="btn btn-primary btn-sm" href="tambah_pesanan.php" role="button">Tambah Data </a> </p>
         <div style="width:800px; margin:0 auto;">
             <table id="table-pesanan" class="table table-striped-columns">
                 <thead>
                     <tr>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i>ID </i></b></td>
-                        <td width="100px" style="background-color: #5085c7; text-align: center;"> <b><i>Tanggal_pesanan</i></b></td>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i> ID Pelanggan</i></b></td>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i> Aksi</i></b></td>
+                        <td width="50px" style="background-color:#c27465; text-align: center;"> <b><i>ID </i></b></td>
+                        <td width="100px" style="background-color: #c27465; text-align: center;"> <b><i>Tanggal_pesanan</i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i> ID Pelanggan</i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i> Aksi</i></b></td>
                     </tr>
                 </thead>
                 <tbody>
@@ -189,7 +205,7 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
                         while ($pesanan = mysqli_fetch_array($psn)) {
                         ?>
                             <tr>
-                                <td style="background-color: #9ea6a7; text-align: center;"><?php echo $pesanan['id']; ?></td>
+                                <td style="background-color: #5c595a; text-align: center;"><?php echo $pesanan['id']; ?></td>
                                 <td style="background-color: #9ea6a7;"><?php echo $pesanan['tanggal_pesanan']; ?></td>
                                 <td style="background-color: #9ea6a7;"><?php echo $pesanan['pelanggan_id']; ?></td>
                                 <td align="center">
@@ -203,25 +219,36 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
                 </tbody>
             </table>
         </div>
-
         <!-- barang -->
+        <div class="w3-card-4">
+            <header class="w3-container w3-light-grey" style="margin-top: 60px; margin-left: 19px;">
+                <h3>Hallo...</h3>
+            </header>
+            <div class="w3-container ">
+                <p>Kamu sudah bisa melakukan Update data</p>
+                <p>Jika Pendataan tersusun maka semuanya akan terhitung dan tidak akan keliru</p>
+                <hr>
+            </div>
+        </div>
         <center>
-            <h2 class="judul">DATA BARANG</h2>
-            <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            <div class="row">
+                <h1 class="coffee_taital" style="margin-top: 50px;">DATA BARANG</h1>
+                <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            </div>
         </center>
         <p style="padding-left: 155px;"><a class="btn btn-primary btn-sm" href="tambah_barang.php" role="button">Tambah Data </a> </p>
         <div style="width:1000px; margin:0 auto;">
             <table id="table-barang" class="table table-striped-columns">
                 <thead>
                     <tr>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i>ID </i></b></td>
-                        <td width="200px" style="background-color: #5085c7; text-align: center;"> <b><i>Gambar</i></b></td>
-                        <td width="200px" style="background-color: #5085c7; text-align: center;"> <b><i>Nama barang</i></b></td>
-                        <td width="100px" style="background-color: #5085c7; text-align: center;"> <b><i>Harga </i></b></td>
-                        <td width="200px" style="background-color: #5085c7; text-align: center;"> <b><i>Stok<br></i></b></td>
-                        <td width="100px" style="background-color: #5085c7; text-align: center;"> <b><i>Penilaian<br></i></b></td>
-                        <td width="100px" style="background-color: #5085c7; text-align: center;"> <b><i>ID Kategori<br></i></b></td>
-                        <td width="200px" style="background-color: #5085c7; text-align: center;"> <b><i>Aksi<br></i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i>ID </i></b></td>
+                        <td width="200px" style="background-color: #c27465; text-align: center;"> <b><i>Gambar</i></b></td>
+                        <td width="200px" style="background-color: #c27465; text-align: center;"> <b><i>Nama barang</i></b></td>
+                        <td width="100px" style="background-color: #c27465; text-align: center;"> <b><i>Harga </i></b></td>
+                        <td width="200px" style="background-color: #c27465; text-align: center;"> <b><i>Stok<br></i></b></td>
+                        <td width="100px" style="background-color: #c27465; text-align: center;"> <b><i>Penilaian<br></i></b></td>
+                        <td width="100px" style="background-color: #c27465; text-align: center;"> <b><i>ID Kategori<br></i></b></td>
+                        <td width="200px" style="background-color: #c27465; text-align: center;"> <b><i>Aksi<br></i></b></td>
                     </tr>
                 </thead>
                 <tbody>
@@ -233,7 +260,7 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
                         while ($barang = mysqli_fetch_array($brg)) {
                         ?>
                             <tr>
-                                <td style="background-color: #9ea6a7; text-align: center;"><?php echo $barang['id']; ?></td>
+                                <td style="background-color: #5c595a; text-align: center;"><?php echo $barang['id']; ?></td>
                                 <td style="background-color: #9ea6a7;"><img src="<?php echo $barang["gambar"]; ?>" width="100"></td>
                                 <td style="background-color: #9ea6a7;"><?php echo $barang['nama_barang']; ?></td>
                                 <td style="background-color: #9ea6a7;"><?php echo "Rp" . number_format($barang['harga']); ?></td>
@@ -253,18 +280,30 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
         </div>
 
         <!-- kategori -->
+        <div class="w3-card-4">
+            <header class="w3-container w3-light-grey" style="margin-top: 60px; margin-left: 19px;">
+                <h3>Hallo...</h3>
+            </header>
+            <div class="w3-container ">
+                <p>Kamu sudah bisa melakukan Update data</p>
+                <p>Jika Pendataan tersusun maka semuanya akan terhitung dan tidak akan keliru</p>
+                <hr>
+            </div>
+        </div>
         <center>
-            <h2 class="judul">DATA KATEGORI</h2>
-            <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            <div class="row">
+                <h1 class="coffee_taital" style="margin-top: 50px;">DATA KATEGORI</h1>
+                <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            </div>
         </center>
         <p style="padding-left: 250px;"><a class="btn btn-primary btn-sm" href="tambah_kategori.php" role="button">Tambah Data </a> </p>
         <div style="width:800px; margin:0 auto;">
             <table id="table-kategori" class="table table-striped-columns">
                 <thead>
                     <tr>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i>ID </i></b></td>
-                        <td width="100px" style="background-color: #5085c7; text-align: center;"> <b><i>Nama Kategori</i></b></td>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i> Aksi</i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i>ID </i></b></td>
+                        <td width="100px" style="background-color:#c27465; text-align: center;"> <b><i>Nama Kategori</i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i> Aksi</i></b></td>
                     </tr>
                 </thead>
                 <tbody>
@@ -274,7 +313,7 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
                         while ($kategori = mysqli_fetch_array($ktg)) {
                         ?>
                             <tr>
-                                <td style="background-color: #9ea6a7; text-align: center;"><?php echo $kategori['id']; ?></td>
+                                <td style="background-color: #5c595a; text-align: center;"><?php echo $kategori['id']; ?></td>
                                 <td style="background-color: #9ea6a7;"><?php echo $kategori['nama_kategori']; ?></td>
                                 <td align="center">
                                     <a href="edit_kategori.php?id=<?php echo $kategori['id']; ?>" class="btn btn-warning btn-sm">Edit</a>
@@ -289,21 +328,33 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
         </div>
 
         <!-- pesanan -->
+        <div class="w3-card-4">
+            <header class="w3-container w3-light-grey" style="margin-top: 60px; margin-left: 19px;">
+                <h3>Hallo...</h3>
+            </header>
+            <div class="w3-container ">
+                <p>Kamu sudah bisa melakukan Update data</p>
+                <p>Jika Pendataan tersusun maka semuanya akan terhitung dan tidak akan keliru</p>
+                <hr>
+            </div>
+        </div>
         <center>
-            <h2 class="judul">DETAIL PESANAN</h2>
-            <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            <div class="row">
+                <h1 class="coffee_taital" style="margin-top: 50px;">DETAIL PESANAN</h1>
+                <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            </div>
         </center>
         <p style="padding-left: 250px;"><a class="btn btn-primary btn-sm" href="tambah_detail_pesanan.php" role="button">Tambah Data </a> </p>
         <div style="width:800px; margin:0 auto;">
             <table id="table-detail" class="table table-striped-columns">
                 <thead>
                     <tr>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i>ID </i></b></td>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i>Pesanan ID</i></b></td>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i> Barang ID</b></td>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i> Jumlah Barang<i></b></td>
-                        <td width="50px" style="background-color: #5085c7; text-align: center;"> <b><i> Total Pesanan</i></b></td>
-                        <td width="100px" style="background-color: #5085c7; text-align: center;"> <b><i> Aksi</i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i>ID </i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i>Pesanan ID</i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i> Barang ID</b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i> Jumlah Barang<i></b></td>
+                        <td width="50px" style="background-color: #c27465; text-align: center;"> <b><i> Total Pesanan</i></b></td>
+                        <td width="100px" style="background-color: #c27465; text-align: center;"> <b><i> Aksi</i></b></td>
                     </tr>
                 </thead>
                 <tbody>
@@ -313,7 +364,7 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
                         while ($detail_pesanan = mysqli_fetch_array($dp)) {
                         ?>
                             <tr>
-                                <td style="background-color: #9ea6a7; text-align: center;"><?php echo $detail_pesanan['id']; ?></td>
+                                <td style="background-color: #5c595a;text-align: center;"><?php echo $detail_pesanan['id']; ?></td>
                                 <td style="background-color: #9ea6a7;"><?php echo $detail_pesanan['pesanan_id']; ?></td>
                                 <td style="background-color: #9ea6a7;"><?php echo $detail_pesanan['barang_id']; ?></td>
                                 <td style="background-color: #9ea6a7;"><?php echo $detail_pesanan['jumlah_barang']; ?></td>
@@ -337,17 +388,17 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="address_text">Address</h1>
-                        <p class="footer_text">here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use </p>
+                        <p class="footer_text">Kamu bisa menghubungi kontak di bawah ini jika ingin memesan dan info lebih lanjut terkait produk. </p>
                         <div class="location_text">
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">+01 1234567890</span>
+                                        <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">+6285234543212</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">demo@gmail.com</span>
+                                        <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">Accessoris_Shop.com</span>
                                     </a>
                                 </li>
                             </ul>
@@ -366,33 +417,19 @@ $dp = mysqli_query($connection, "SELECT * FROM detail_pesanan");
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
-                        <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a></p>
+                        <p class="copyright_text">2023 All Rights Reserved. Design by <a href="#">Anggun Wulan Sari</a></p>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <div class="footer_social_icon">
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/anggun_wlsr/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- copyright section end -->
-        <!-- Javascript files-->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery-3.0.0.min.js"></script>
-        <script src="js/plugin.js"></script>
-        <!-- sidebar -->
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/custom.js"></script>
-
-
 
 </body>
 
